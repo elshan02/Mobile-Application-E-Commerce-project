@@ -56,9 +56,14 @@ npx expo start
 
 ### Project Structure
 ```text
-app/          # Main application logic & file-based routing 
-firebase/     # Firebase config files
-scripts/      # Utility scripts (e.g., reset-project.js)
+├── app/              # Expo Router pages (Tabs & Layouts)
+├── components/       # Reusable UI components (Haptics, Symbols, etc.)
+├── context/          # Global state management (CartContext)
+├── firebase/         # Firebase configuration
+├── navigation/       # Native stack and tab navigators
+├── screens/          # Screen-level components (Auth, Products, Static)
+└── constants/        # App theme and global constants
+
 ```
 
 
