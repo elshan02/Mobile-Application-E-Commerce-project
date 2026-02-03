@@ -55,9 +55,11 @@ npx expo start
 - Web browser (press w in the terminal)
 
 ### Project Structure
+```text
 app/          # Main application logic & file-based routing 
 firebase/     # Firebase config files
 scripts/      # Utility scripts (e.g., reset-project.js)
+```
 
 
 ### Available Scripts
