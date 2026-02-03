@@ -1,60 +1,75 @@
-E-commerce Mobile Application
-This is a cross-platform mobile e-commerce application built using React Native and Expo. The app provides a shopping experience with a focus on high performance and a modern UI.
+# E-commerce Mobile Application
 
-🚀 Key Features
-Authentication: Secure user login and registration powered by Firebase.
+A cross-platform e-commerce mobile application built with **React Native** and **Expo**.  
+The app delivers a fast, modern shopping experience with smooth navigation and a polished UI, optimized for both **mobile** and **web** platforms.
 
-Navigation: Seamless transitions between screens using React Navigation (Bottom Tabs and Native Stack).
+---
 
-Persistent Storage: Local data persistence via Async Storage.
+## Features
 
-Modern UI: Interactive components utilizing React Native, Reanimated, and Expo Haptics for a polished feel.
+- **Authentication**  
+  Secure user registration and login powered by Firebase Authentication.
 
-Web Support: Optimized for mobile and web browsers using react-native-web.
+- **Navigation**  
+  Smooth screen transitions using React Navigation (Bottom Tabs & Native Stack).
 
-🛠️ Tech Stack
-Framework: Expo
+- **Persistent Storage**  
+  Local data storage with Async Storage for a better user experience.
 
-Language: TypeScript
+- **Modern UI & UX**  
+  Animations and interactions built with React Native, Reanimated, and Expo Haptics.
 
-Backend: Firebase
+- **Web Support**  
+  Runs seamlessly on browsers using react-native-web.
 
-Styling & Icons: Expo Symbols and Vector Icons
+---
 
-📥 Getting Started
-1. Prerequisites
-Ensure you have Node.js installed on your machine.
+## Tech Stack
 
-2. Install Dependencies
-Bash
-npm install
-3. Start the Development Server
-Bash
+- **Framework:** Expo  
+- **Language:** TypeScript  
+- **Backend:** Firebase  
+- **Styling & Icons:** Expo Symbols, Vector Icons  
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js is installed on your machine
+
+### Running the App
 npx expo start
-Once the server is running, you can open the app in:
 
-An Android emulator
+### You can run the app on:
 
-An iOS simulator
+- Android Emulator
 
-The Expo Go app on your physical device
+- iOS Simulator
 
-A Web browser (press w in the terminal)
+- Expo Go (physical device)
 
-📂 Project Structure
-app/: Contains the main application logic and file-based routing.
+- Web browser (press w in the terminal)
 
-scripts/: Utility scripts, including reset-project.js.
+### Project Structure
+app/          # Main application logic & file-based routing
+firebase/     # Firebase config files
+scripts/      # Utility scripts (e.g., reset-project.js)
 
-firebase/: Configuration files for Firebase services.
 
-📜 Available Scripts
-npm run start: Starts the Expo development server.
+### Available Scripts
 
-npm run android: Starts the app on an Android emulator.
+- npm run start – Start the Expo development server
 
-npm run ios: Starts the app on an iOS simulator.
+- npm run android – Run on Android emulator
 
-npm run web: Starts the app in a web browser.
+- npm run ios – Run on iOS simulator
 
-npm run lint: Runs ESLint to check for code quality issues.
+- npm run web – Run in a web browser
+
+- npm run lint – Run ESLint for code quality checks
+
+### Installation
+```bash
+npm install
