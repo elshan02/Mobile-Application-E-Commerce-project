@@ -1,50 +1,60 @@
-# Welcome to your Expo app 👋
+E-commerce Mobile Application
+This is a cross-platform mobile e-commerce application built using React Native and Expo. The app provides a shopping experience with a focus on high performance and a modern UI.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+🚀 Key Features
+Authentication: Secure user login and registration powered by Firebase.
 
-## Get started
+Navigation: Seamless transitions between screens using React Navigation (Bottom Tabs and Native Stack).
 
-1. Install dependencies
+Persistent Storage: Local data persistence via Async Storage.
 
-   ```bash
-   npm install
-   ```
+Modern UI: Interactive components utilizing React Native, Reanimated, and Expo Haptics for a polished feel.
 
-2. Start the app
+Web Support: Optimized for mobile and web browsers using react-native-web.
 
-   ```bash
-   npx expo start
-   ```
+🛠️ Tech Stack
+Framework: Expo
 
-In the output, you'll find options to open the app in a
+Language: TypeScript
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Backend: Firebase
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Styling & Icons: Expo Symbols and Vector Icons
 
-## Get a fresh project
+📥 Getting Started
+1. Prerequisites
+Ensure you have Node.js installed on your machine.
 
-When you're ready, run:
+2. Install Dependencies
+Bash
+npm install
+3. Start the Development Server
+Bash
+npx expo start
+Once the server is running, you can open the app in:
 
-```bash
-npm run reset-project
-```
+An Android emulator
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+An iOS simulator
 
-## Learn more
+The Expo Go app on your physical device
 
-To learn more about developing your project with Expo, look at the following resources:
+A Web browser (press w in the terminal)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+📂 Project Structure
+app/: Contains the main application logic and file-based routing.
 
-## Join the community
+scripts/: Utility scripts, including reset-project.js.
 
-Join our community of developers creating universal apps.
+firebase/: Configuration files for Firebase services.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+📜 Available Scripts
+npm run start: Starts the Expo development server.
+
+npm run android: Starts the app on an Android emulator.
+
+npm run ios: Starts the app on an iOS simulator.
+
+npm run web: Starts the app in a web browser.
+
+npm run lint: Runs ESLint to check for code quality issues.
