@@ -40,7 +40,9 @@ The app delivers a fast, modern shopping experience with smooth navigation and a
 - Node.js is installed on your machine
 
 ### Running the App
+```bash
 npx expo start
+```
 
 ### You can run the app on:
 
@@ -53,12 +55,13 @@ npx expo start
 - Web browser (press w in the terminal)
 
 ### Project Structure
-app/          # Main application logic & file-based routing
+app/          # Main application logic & file-based routing 
 firebase/     # Firebase config files
 scripts/      # Utility scripts (e.g., reset-project.js)
 
 
 ### Available Scripts
+```bash
 
 - npm run start – Start the Expo development server
 
@@ -69,6 +72,7 @@ scripts/      # Utility scripts (e.g., reset-project.js)
 - npm run web – Run in a web browser
 
 - npm run lint – Run ESLint for code quality checks
+```
 
 ### Installation
 ```bash
